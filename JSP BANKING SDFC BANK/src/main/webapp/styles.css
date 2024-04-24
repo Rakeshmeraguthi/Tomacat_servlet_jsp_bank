@@ -1,0 +1,44 @@
+@charset "ISO-8859-1";
+h1{
+	color:blue;
+	background-color:skyblue;
+	
+}
+ul {
+ list-style-type: none;
+ margin: 1px ;
+ padding: 1px;
+ overflow: auto;
+ border: 1px solid #ffffff;
+ background-color: #408080;
+ position: fixed;
+ top: 150px;
+ width: 100%;
+}
+
+li {
+ float: left;
+ border-right: 2px solid #e7e7e8;
+}
+
+/* Add a border to all( but not the last) list items */
+li:last-child { 
+ border-right: none;
+}
+
+li a {
+ display: block;
+ color: #804040;
+ text-align: left;
+ padding: 15px 17px;
+ text-decoration: none;
+}
+
+/* Links will change color when hovered over */
+li a:hover {
+ background-color: #408080;
+}
+
+ h2{
+ background-color: #ffffff;
+}
